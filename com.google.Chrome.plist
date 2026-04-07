@@ -91,6 +91,10 @@
 	<!-- ===================== -->
 	<key>SearchSuggestEnabled</key>
 	<false/>
+	<key>BackgroundModeEnabled</key>
+	<false/>
+	<key>DefaultCookiesSetting</key>
+	<integer>4</integer>
 	<key>MetricsReportingEnabled</key>
 	<false/>
 	<key>PromotionalTabsEnabled</key>
