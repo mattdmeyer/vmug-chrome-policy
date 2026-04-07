@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<!-- ===================== -->
+	<!-- Password Manager       -->
+	<!-- ===================== -->
+	<key>PasswordManagerEnabled</key>
+	<false/>
+	<key>PasswordManagerOnboardingEnabled</key>
+	<false/>
+	<key>CredentialProviderPromoEnabled</key>
+	<false/>
+
+	<!-- ===================== -->
+	<!-- Autofill               -->
+	<!-- ===================== -->
+	<key>AutofillAddressEnabled</key>
+	<false/>
+	<key>AutofillCreditCardEnabled</key>
+	<false/>
+
+	<!-- ===================== -->
+	<!-- Clear Data on Exit     -->
+	<!-- ===================== -->
+	<key>ClearBrowsingDataOnExitList</key>
+	<array>
+		<string>browsing_history</string>
+		<string>download_history</string>
+		<string>cookies_and_other_site_data</string>
+		<string>cached_images_and_files</string>
+		<string>password_signin</string>
+		<string>autofill</string>
+		<string>site_settings</string>
+		<string>hosted_app_data</string>
+	</array>
+
+	<!-- ===================== -->
+	<!-- Sync / Sign-in         -->
+	<!-- ===================== -->
+	<key>BrowserSignin</key>
+	<integer>0</integer>
+	<key>SyncDisabled</key>
+	<true/>
+
+	<!-- ===================== -->
+	<!-- Startup                -->
+	<!-- ===================== -->
+	<!-- RestoreOnStartup: 4 = open a list of URLs -->
+	<key>RestoreOnStartup</key>
+	<integer>4</integer>
+	<key>RestoreOnStartupURLs</key>
+	<array>
+		<string>https://www.google.com</string>
+	</array>
+
+	<!-- ===================== -->
+	<!-- Bookmarks              -->
+	<!-- ===================== -->
+	<key>BookmarkBarEnabled</key>
+	<true/>
+	<key>ManagedBookmarks</key>
+	<array>
+		<dict>
+			<key>toplevel_name</key>
+			<string>Classroom</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Google</string>
+			<key>url</key>
+			<string>https://www.google.com</string>
+		</dict>
+	</array>
+	<key>EditBookmarksEnabled</key>
+	<true/>
+
+	<!-- ===================== -->
+	<!-- Guest / Profile        -->
+	<!-- ===================== -->
+	<key>BrowserGuestModeEnabled</key>
+	<true/>
+	<key>BrowserAddPersonEnabled</key>
+	<false/>
+	<key>ForceEphemeralProfiles</key>
+	<true/>
+
+	<!-- ===================== -->
+	<!-- Miscellaneous Privacy  -->
+	<!-- ===================== -->
+	<key>SearchSuggestEnabled</key>
+	<false/>
+	<key>MetricsReportingEnabled</key>
+	<false/>
+	<key>PromotionalTabsEnabled</key>
+	<false/>
+	<key>ImportSavedPasswords</key>
+	<false/>
+	<key>ImportAutofillFormData</key>
+	<false/>
+
+</dict>
+</plist>
