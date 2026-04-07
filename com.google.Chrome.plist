@@ -84,7 +84,7 @@
 	<key>BrowserAddPersonEnabled</key>
 	<false/>
 	<key>ForceEphemeralProfiles</key>
-	<true/>
+	<false/>
 
 	<!-- ===================== -->
 	<!-- Miscellaneous Privacy  -->
